@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
     
-ul.menu {
+ul.topmenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,23 +36,42 @@ li.menu a:hover:not(.active) {
 .active {
     background-color: #ce99ff;
 }
+    .asdf {
+    float: left;
+    padding: 15px;
+    }
+    .submenu ul {
+        
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.submenu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
 </style>
 </head>
     
     
 <body>
-<ul.menu>
+<ul.topmenu>
   <li.menu><a class="active" href="#games">G A M E S</a></li>
   <li.menu><a href="#videos">V I D E O S</a></li>
   <li.menu><a href="#photos">P H O T O S</a></li>
   <li.menu><a href="#wonders">W O N D E R S</a></li>
 </ul>
       <img src="Logo Seven Star Wonders.jpg" alt="Logo" width="500" height="500" class="center">
-   <ul>
+  
+    <div class="asdf submenu">
+    <ul>
       <li>The Flight</li>
       <li>The City</li>
       <li>The Island</li>
       <li>The Food</li>
     </ul>
+    </div>
 </body>
 </html>
