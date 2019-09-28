@@ -1,11 +1,3 @@
-/*
-
-Short HTML Template
-
-http://www.templatemo.com/tm-502-short
-
-*/
-
 
 /*
 ===============================================
@@ -207,14 +199,14 @@ body {
 
 .about-container {
   text-align: center;
-  background-color: #fff;
+  background-color: #e6ccff;
   margin-top: 24%;
 }
 
 .about-container h2 {
   font-size: 24px;
   letter-spacing: 0.5px;
-  color: #121212;
+  color: #fff;
   text-transform: uppercase;
   margin: 40px;
   margin-bottom: 0px;

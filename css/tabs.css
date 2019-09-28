@@ -65,16 +65,16 @@
 	font-size: 14px;
 	font-weight: 900;
 	text-transform: uppercase;
-	color: #121212;
+	color: #fff;
 }
 
 .VerticalTab.tabs_ver_6 .resp-tabs-list .resp-tab-active {
 	margin: 10px 0px!important;
-	color: #f78b26;
+	background-color: #ce99ff;
 	border: none!important;
 }
 .VerticalTab.tabs_ver_6 .resp-tabs-list li:hover {
-	color: #f78b26;
+	background-color: #dab3ff;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
